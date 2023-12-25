@@ -5,4 +5,12 @@ export default defineNuxtConfig({
   ssr: false,
 
   modules: ["@nuxt/ui"],
+
+  postcss: {
+    plugins: {
+      "postcss-nested": {},
+      "postcss-hexrgba": {},
+      "postcss-import": {},
+    },
+  },
 });

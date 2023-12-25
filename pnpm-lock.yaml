@@ -16,6 +16,15 @@ devDependencies:
   nuxt:
     specifier: ^3.8.2
     version: 3.8.2(vite@5.0.10)
+  postcss-hexrgba:
+    specifier: ^2.1.0
+    version: 2.1.0(postcss@8.4.32)
+  postcss-import:
+    specifier: ^15.1.0
+    version: 15.1.0(postcss@8.4.32)
+  postcss-nested:
+    specifier: ^6.0.1
+    version: 6.0.1(postcss@8.4.32)
   vue:
     specifier: ^3.3.12
     version: 3.3.13
@@ -4737,7 +4746,6 @@ packages:
   /pify@2.3.0:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
-    dev: false
 
   /pirates@4.0.6:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
@@ -4839,6 +4847,15 @@ packages:
     dependencies:
       postcss: 8.4.32
 
+  /postcss-hexrgba@2.1.0(postcss@8.4.32):
+    resolution: {integrity: sha512-Bb8Ca/vTI/X2Pgq1O3VhOdXE0rg/hz6161MHMu93ebePw8d/I9GSOc+wbd151OGGxSyTz+z196tFeEpSafrJfA==}
+    peerDependencies:
+      postcss: ^8.1.4
+    dependencies:
+      postcss: 8.4.32
+      postcss-value-parser: 4.2.0
+    dev: true
+
   /postcss-import@15.1.0(postcss@8.4.32):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
@@ -4849,7 +4866,6 @@ packages:
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.8
-    dev: false
 
   /postcss-js@4.0.1(postcss@8.4.32):
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
@@ -4948,7 +4964,6 @@ packages:
     dependencies:
       postcss: 8.4.32
       postcss-selector-parser: 6.0.13
-    dev: false
 
   /postcss-nesting@12.0.2(postcss@8.4.32):
     resolution: {integrity: sha512-63PpJHSeNs93S3ZUIyi+7kKx4JqOIEJ6QYtG3x+0qA4J03+4n0iwsyA1GAHyWxsHYljQS4/4ZK1o2sMi70b5wQ==}
@@ -5181,7 +5196,6 @@ packages:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
     dependencies:
       pify: 2.3.0
-    dev: false
 
   /read-package-json-fast@3.0.2:
     resolution: {integrity: sha512-0J+Msgym3vrLOUB3hzQCuZHII0xkNGCtz/HJH9xZshwv9DbDwkw1KaE3gx/e2J5rpEY5rtOy6cyhKOPrkP7FZw==}
