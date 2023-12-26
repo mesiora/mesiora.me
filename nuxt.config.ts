@@ -8,6 +8,12 @@ export default defineNuxtConfig({
     head: {
       titleTemplate: "%s - Meduiora",
       title: "Me",
+      htmlAttrs: {
+        lang: "en",
+      },
+      meta: [
+        { hid: "description", name: "description", content: "Itsarachon Puansak (Khom), a fullstack web developer" },
+      ],
     },
     pageTransition: { name: "page", mode: "out-in" },
   },
