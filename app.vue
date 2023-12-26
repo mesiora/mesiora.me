@@ -1,6 +1,6 @@
 <template>
   <div>
-    <aside class="noise"></aside>
+    <span class="noise"></span>
     <article class="relative prose dark:prose-invert mx-auto my-36">
       <h1>Medusiora</h1>
       <blockquote>
@@ -8,7 +8,7 @@
       </blockquote>
       <p>Hey, I'm Itsarachon Puansak (Khom), a fullstack web developer</p>
       <p>
-        Working at
+        🔭 Working at
         <a
           href="https://outsourcify.net/"
           target="_blank"
@@ -71,7 +71,19 @@
   </div>
 </template>
 
-<style>
+<script lang="ts" setup></script>
+
+<style lang="postcss">
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+
 .noise {
   position: fixed;
   top: -50%;
