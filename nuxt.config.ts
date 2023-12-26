@@ -2,6 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  ssr: false,
+
+  nitro: {
+    static: true,
+  },
+
   modules: ["@nuxt/ui"],
 
   app: {
@@ -12,7 +18,11 @@ export default defineNuxtConfig({
         lang: "en",
       },
       meta: [
-        { hid: "description", name: "description", content: "Itsarachon Puansak (Khom), a fullstack web developer" },
+        {
+          hid: "description",
+          name: "description",
+          content: "Itsarachon Puansak (Khom), a fullstack web developer",
+        },
       ],
     },
     pageTransition: { name: "page", mode: "out-in" },
