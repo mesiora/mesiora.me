@@ -1,9 +1,7 @@
 <template>
   <div>
     <UButton
-      v-if="
-        $colorMode.preference !== 'system' && $colorMode.preference !== 'dark'
-      "
+      v-if="$colorMode.preference !== 'dark'"
       :padded="false"
       color="gray"
       variant="link"
