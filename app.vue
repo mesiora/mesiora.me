@@ -95,8 +95,9 @@
   background: transparent url("~/assets/images/noise.png") repeat 0 0;
   background-repeat: repeat;
   animation: noise 0.2s infinite;
-  opacity: 0.9;
+  opacity: 0.5;
   visibility: visible;
+  pointer-events: none;
 }
 
 @keyframes noise {
