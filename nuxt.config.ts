@@ -2,9 +2,15 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  ssr: false,
-
   modules: ["@nuxt/ui"],
+
+  app: {
+    head: {
+      titleTemplate: "%s - Meduiora",
+      title: "Me",
+    },
+    pageTransition: { name: "page", mode: "out-in" },
+  },
 
   postcss: {
     plugins: {
