@@ -1,11 +1,12 @@
 <template>
   <div>
     <UButton
-      v-if="$colorMode.preference !== 'dark'"
+      v-if="$colorMode.value !== 'dark'"
       :padded="false"
       color="gray"
       variant="link"
       icon="i-heroicons-sun-20-solid"
+      aria-label="Switch to dark mode"
       @click="changeColorMode('dark')"
     />
     <UButton
@@ -14,6 +15,7 @@
       color="gray"
       variant="link"
       icon="i-heroicons-moon-20-solid"
+      aria-label="Switch to light mode"
       @click="changeColorMode('light')"
     />
   </div>
