@@ -3,9 +3,9 @@
     <nav class="py-8 flex gap-4 items-center">
       <NuxtLink :to="{ name: 'index' }">
         <img
-          src="~/assets/images/cat.png"
+          src="~/assets/images/logo-no-background.svg"
           alt="Home"
-          class="max-w-9 dark:invert"
+          class="max-w-10 dark:invert"
         />
       </NuxtLink>
 
