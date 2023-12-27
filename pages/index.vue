@@ -52,24 +52,6 @@
           GitHub
         </a>
         <a
-          href="https://www.facebook.com/itsarachon.khom/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="no-underline"
-        >
-          <UIcon name="i-simple-icons-facebook" dynamic />
-          Facebook
-        </a>
-        <a
-          href="https://www.instagram.com/medusiora/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="no-underline"
-        >
-          <UIcon name="i-simple-icons-instagram" dynamic />
-          instagram
-        </a>
-        <a
           href="mailto:itsarachon.khom@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
