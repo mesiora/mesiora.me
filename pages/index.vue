@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <article class="relative prose dark:prose-invert mx-auto my-14">
-      <h1>Medusiora</h1>
+      <h1>Mesiora</h1>
       <blockquote>
         <small> "Everything can work!" - BigDaddy</small>
       </blockquote>
